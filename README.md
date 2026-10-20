@@ -1,6 +1,24 @@
 # MyInsideUniverseInterface
 Editor and tools for the interface files of Reality Pump games: Earth 2150, KnightShift, Earth 2160, Two Worlds, Two Worlds II, Heli Heroes, WWIII: Black Gold and WWII: Panzer Claws. InterfaceMap compiler/decompiler (byte-for-byte), DDS and .int tools, batch export/import.
 
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/Ks-int.png?raw=true" alt="KnightShift interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/OVERLAP-FIX.png?raw=true" alt="Support for overlapping tiles"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/E2150-int.png?raw=true" alt="Earth 2150 interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/E2160-int.png?raw=true" alt="Earth 2160 interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/HH-int.png?raw=true" alt="Heli Heroes interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/WWIII-BG-int.png?raw=true" alt="World War III Black Gold interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/WWII-PC-FA-int.png?raw=true" alt="World War II Panzer Claws (Frontline Attack) interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/Tw-I-int.png?raw=true" alt="Two Worlds I interface"/>
+
+<img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/Tw-II-int.png?raw=true" alt="Two Worlds II interface"/>
+
 ## InterfaceTools
 
 One program, `InterfaceTools.exe`, for the interface files of **Earth 2150**, **KnightShift**, **Earth 2160**, **TwoWorlds** and **Two Worlds II**, and of the other Reality Pump games whose interface uses the Earth 2150 format: **Heli Heroes**, **World War III: Black Gold** and **World War II: Panzer Claws** (*Frontline Attack: War over Europe*):

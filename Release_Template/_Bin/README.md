@@ -13,12 +13,12 @@ The files of Heli Heroes, World War III: Black Gold and World War II: Panzer Cla
 
 It replaces all the former Python scripts. It needs only the .NET Framework 4.8, which is part of Windows 10 and 11 (nothing to install). The names database (item and state names, presets and descriptions) is built into the program.
 
-`.tex` textures are handled by **TexEnv.exe**, a separate program: put it next to `InterfaceTools.exe` (in this `Bin` folder). Without it, export and import skip the `.tex` files and say so in the log.
+`.tex` textures are handled by **TexEnv.exe**, a separate program in this `Bin` folder, next to `InterfaceTools.exe`. If it is missing, export and import skip the `.tex` files and say so in the log.
 
 | File | Purpose |
 |---|---|
 | `InterfaceTools.exe` | the program (editor and all command line tools) |
-| `TexEnv.exe` | the `.tex` texture tool (not part of this package; copy it here) |
+| `TexEnv.exe` | the `.tex` texture tool, used by the export and import |
 | `FORMAT.md` | description of the definition files and the `.dat` files |
 | `MISSING_DATS_FOR_OVERLAP\` | your own text `.dat` files: the textures they name are exported / imported with the Overlap tileset commands (see *Export all / Import all*) |
 

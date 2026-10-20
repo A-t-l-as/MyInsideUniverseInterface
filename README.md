@@ -30,12 +30,11 @@ The format of a `.dat` file is detected automatically.
 
 ## Quick start
 
-1. Download the release and unpack it.
-2. Copy **TexEnv.exe** (the `.tex` texture tool, not included) into the `Bin` folder. Without it, the `.tex` textures are skipped.
-3. Extract the interface files of the game from its `.wd` archives (usually `Interface.wd` and `InterfaceEx.wd`) into a subfolder of `Work`, **one folder per interface** (e.g. `Work\KnightShift`, `Work\TwoWorlds`).
-4. Run `EXPORT_ALL_INTERFACES.bat`. The layouts become `.txt` + bitmaps, the textures become `.png`, and `.int` files become `.def`.
-5. Edit the files: textures in any image editor, layouts with `RUN_INTERFACE_MAP_GUI.bat`.
-6. Run `IMPORT_ALL_INTERFACES.bat` to pack everything back into the game formats.
+1. Download the release and unpack it. Everything is included and ready to use (`TexEnv.exe` for the `.tex` textures is already in `Bin`).
+2. Extract the interface files of the game from its `.wd` archives (usually `Interface.wd` and `InterfaceEx.wd`) into a subfolder of `Work`, **one folder per interface** (e.g. `Work\KnightShift`, `Work\TwoWorlds`).
+3. Run `EXPORT_ALL_INTERFACES.bat`. The layouts become `.txt` + bitmaps, the textures become `.png`, and the `.int` files become `.def`.
+4. Edit the files: textures in any image editor, layouts with `RUN_INTERFACE_MAP_GUI.bat`.
+5. Run `IMPORT_ALL_INTERFACES.bat` to pack everything back into the game formats, then put the files back into the game.
 
 **Keep the original `.tex` files after the export:** the import writes the edited images into them.
 
@@ -77,7 +76,7 @@ The textures that need this are found in the text `.dat` files of the interface 
 | `RUN_INTERFACE_MAP_GUI.bat` | starts the editor |
 | `RUN_TEX_EDIT.bat`, `RUN_TEX_EDIT_SHELL.bat`, `RUN_TEX_VIEWER.bat` | start the TexEnv tools for `.tex` textures |
 | `Bin\InterfaceTools.exe` | the program (editor and all command line tools) |
-| `Bin\TexEnv.exe` | the `.tex` texture tool (not included; copy it here) |
+| `Bin\TexEnv.exe` | the `.tex` texture tool, used by the export and import |
 | `Bin\MISSING_DATS_FOR_OVERLAP\` | your own text `.dat` files: the textures they name are exported / imported with the Overlap tileset commands |
 | `Bin\FORMAT.md` | description of the definition files and the `.dat` files |
 | `Work\` | put the interface files here, one folder per interface |

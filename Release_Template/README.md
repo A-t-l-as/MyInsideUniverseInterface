@@ -4,7 +4,7 @@ Extract the interface files of a given `Reality Pump` game from the `.wd` file a
 
 Supported games: Earth 2150, KnightShift, Earth 2160, TwoWorlds, Two Worlds II, and - with the Earth 2150 format - Heli Heroes, World War III: Black Gold and World War II: Panzer Claws (Frontline Attack: War over Europe).
 
-Everything is done by one program, `Bin\InterfaceTools.exe` (no Python needed; it uses the .NET Framework 4.8 that comes with Windows 10 and 11). Put `TexEnv.exe` into the `Bin` folder too: it is needed for the `.tex` textures.
+Everything is done by one program, `Bin\InterfaceTools.exe` (no Python needed; it uses the .NET Framework 4.8 that comes with Windows 10 and 11). `Bin\TexEnv.exe` handles the `.tex` textures.
 
 * `EXPORT_ALL_INTERFACES.bat` -- Exports all interfaces placed in the `Work` directory: `.dat`, `.int`, `.dds` and `.tex` files, enabling their subsequent editing.
 * `IMPORT_ALL_INTERFACES.bat` -- Imports all interfaces placed in the `Work` directory. It packs the files previously unpacked by `EXPORT_ALL_INTERFACES.bat` back into their original format.

@@ -3,6 +3,8 @@ Editor and tools for the interface files of Reality Pump games: Earth 2150, Knig
 
 <img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/Ks-int.png?raw=true" alt="KnightShift interface"/>
 
+The interface dialogue textures were split into multiple tiles, each of which had an excess of 4 pixels. At runtime, the game would arrange these tiles and trim off the excess 4 pixels. From now on, once the interface has been exported, there is no need to merge the tiles yourself or remove the 4-pixel margin, as the export programme does all this for us. As a result, once exported, the interface is ready for editing without any additional tedious steps. Re-importing the files prepares the modified textures so that the game can read them correctly. 
+
 <img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/OVERLAP-FIX.png?raw=true" alt="Support for overlapping tiles"/>
 
 <img src="https://github.com/A-t-l-as/MyInsideUniverseInterface/blob/main/Docs/E2150-int.png?raw=true" alt="Earth 2150 interface"/>

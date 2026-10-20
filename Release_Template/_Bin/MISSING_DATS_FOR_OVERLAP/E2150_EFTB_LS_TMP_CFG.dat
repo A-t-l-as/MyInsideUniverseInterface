@@ -1,0 +1,33 @@
+// E2150 EFTB + E2150 LS + E2150 TMP textures that no .dat of the game names
+Interface\bkg00.tex
+Interface\bkg08.tex
+Interface\bkg09.tex
+Interface\bkg127.tex
+Interface\bkg21.tex
+Interface\bkg22.tex
+Interface\bkg23.tex
+Interface\bkg28.tex
+Interface\bkg29.tex
+Interface\bkg2F.tex
+Interface\bkg41.tex
+Interface\bkg42.tex
+Interface\bkg43.tex
+Interface\bkg48.tex
+Interface\bkg49.tex
+Interface\bkg4F.tex
+Interface\bkg61.tex
+Interface\bkg62.tex
+Interface\bkg63.tex
+Interface\bkg68.tex
+Interface\bkg69.tex
+Interface\bkg6F.tex
+Interface\bkg81.tex
+Interface\bkg84.tex
+Interface\bkg85.tex
+Interface\bkg86.tex
+Interface\bkg87.tex
+Interface\BKG8C.tex
+Interface\bkgA1.tex
+Interface\bkgA3.tex
+
+// eof

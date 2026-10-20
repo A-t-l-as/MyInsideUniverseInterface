@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Build on Windows with the .NET SDK:  dotnet build -c Release
+       (the .NET Framework 4.8 reference assemblies are downloaded from NuGet automatically).
+       The result runs on any Windows with .NET Framework 4.8 (included in Windows 10 / 11). -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>InterfaceTools</AssemblyName>
+    <RootNamespace>InterfaceTools</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationManifest>res\app.manifest</ApplicationManifest>
+    <ApplicationIcon>res\InterfaceTools.ico</ApplicationIcon>
+    <NoWarn>1591;0649;0169;8019</NoWarn>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <EmbeddedResource Include="res\interfacemap_names.json" LogicalName="InterfaceTools.interfacemap_names.json" />
+    <Compile Remove="tools\**" />
+  </ItemGroup>
+</Project>
